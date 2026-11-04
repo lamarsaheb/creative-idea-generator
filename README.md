@@ -1,6 +1,6 @@
 # Creative Idea Generator
 
-Version 1 of my AI Agents homework: a beginner-friendly Google Colab notebook that asks for an everyday object and generates **one unusual but practical use** for it.
+Version 2 of my AI Agents homework: a beginner-friendly Google Colab notebook that asks for an everyday object and generates **three different creative, practical ideas** for it.
 
 ## Run in Google Colab
 
@@ -9,13 +9,13 @@ Version 1 of my AI Agents homework: a beginner-friendly Google Colab notebook th
 3. Connect to a Python runtime and run the cells from top to bottom.
 4. The first code cell installs the OpenAI Python SDK.
 5. Enter an everyday object when prompted.
-6. Enter your OpenAI API key in the hidden `getpass` prompt. The idea appears below the final code cell.
+6. Enter your OpenAI API key in the hidden `getpass` prompt. Three ideas appear below the final code cell, numbered 1–3, each with a short title and a brief explanation.
 
 You need an internet connection, an OpenAI API key with API billing available, and access to `gpt-6-luna`. API usage may cost money; a ChatGPT subscription does not include API usage.
 
 ## How it works
 
-The notebook uses `client.responses.create()` with model `gpt-6-luna`, asks for exactly one idea, and displays `response.output_text`. Simple comments and Markdown cells explain each step. Version 1 has no three-idea output or repeat loop.
+The notebook uses `client.responses.create()` with model `gpt-6-luna`, asks for exactly three distinct ideas numbered 1–3 with a brief explanation of each, and displays `response.output_text`. Simple comments and Markdown cells explain each step. Version 2 generates all three ideas in one API request and has no repeat loop.
 
 ## API key privacy
 
