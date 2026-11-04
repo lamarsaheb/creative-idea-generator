@@ -11,11 +11,11 @@ Version 2 of my AI Agents homework: a beginner-friendly Google Colab notebook th
 5. Enter an everyday object when prompted.
 6. Enter your OpenAI API key in the hidden `getpass` prompt. Three ideas appear below the final code cell, numbered 1–3, each with a short title and a brief explanation.
 
-You need an internet connection, an OpenAI API key with API billing available, and access to `gpt-6-luna`. API usage may cost money; a ChatGPT subscription does not include API usage.
+You need an internet connection, an OpenAI API key with API billing available, and access to `gpt-5.4-mini`. API usage may cost money; a ChatGPT subscription does not include API usage.
 
 ## How it works
 
-The notebook uses `client.responses.create()` with model `gpt-6-luna`, asks for exactly three distinct ideas numbered 1–3 with a brief explanation of each, and displays `response.output_text`. Simple comments and Markdown cells explain each step. Version 2 generates all three ideas in one API request and has no repeat loop.
+The notebook uses `client.responses.create()` with model `gpt-5.4-mini`, asks for exactly three distinct ideas numbered 1–3 with a brief explanation of each, and displays `response.output_text`. Simple comments and Markdown cells explain each step. Version 2 generates all three ideas in one API request and has no repeat loop.
 
 ## API key privacy
 
